@@ -1,5 +1,5 @@
 # 取消DontDestroyOnLoad效果
-SceneManager.MoveGameObjectToScene(go, SceneManager.GetActiveScene());
+SceneManager.MoveGameObjectToScene(go, SceneManager.GetActiveScene());<br/>
 <br/>
 不用找了就上面一句，用 SceneManager 把要取消 DontDestroyOnLoad 效果的物体移动到当前活跃场景里
 <br/>
