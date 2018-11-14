@@ -1,11 +1,9 @@
 # 取消DontDestroyOnLoad效果
-<br/>
-#### SceneManager.MoveGameObjectToScene(go, SceneManager.GetActiveScene());
-<br/>
-不用找了就上面一句，用 SceneManager 把要取消 DontDestroyOnLoad 效果的物体移动到当前活跃场景里。
-<br/>
-<br/>
 
+### SceneManager.MoveGameObjectToScene(go, SceneManager.GetActiveScene());
+
+不用找了就上面一句，用 SceneManager 把要取消 DontDestroyOnLoad 效果的物体移动到当前活跃场景里。
+</br>
 ## 原理解释
 ### 在Unity中，场景是什么
 Unity的场景和很多人想的并不一样，很多朋友按照现实中的场景来理解Unity中的场景————有一个属于自己的空间，空间里有自己的物体。<br/>
